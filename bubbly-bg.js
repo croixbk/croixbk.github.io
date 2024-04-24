@@ -21,7 +21,7 @@ window.bubbly = function (userConfig = {}) {
             shadow: () => null, // ({blur: 4, color: "#fff"})
             stroke: () => null, // ({width: 2, color: "#fff"})
         }, userConfig.bubbles ?? {}),
-        background: userConfig.background ?? (() => "#00000"),
+        background: userConfig.background ?? (() => "#000000"),
         animate: userConfig.animate !== false,
     }
     // this function contains a lot of references to its parent scope,
